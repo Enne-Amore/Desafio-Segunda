@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 8vw;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    body {
+        font-size: 7vw;
+    }
+    #formulario .figura img {
+        width: 100%;
+        height: 5em;
+        
+    }
+}

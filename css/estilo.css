@@ -1,0 +1,72 @@
+@charset 'UTF-8';
+
+/* A mente do site */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: 2em Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: lightgray;
+    max-width: 100%;
+    height: auto;
+}
+
+/* O corpo do site */
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#formulario .figura img {
+    width: 100%;
+    height: 100%;
+}
+
+#formulario .form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+#formulario .form input {
+    outline: none;
+    border: 0.1em solid lightgray;
+    font-size: 0.8em;
+    border-radius: 0.5em;
+    padding: 2%;
+    margin-bottom: 5%;
+    background-color: gray;
+    color: white;
+}
+
+#formulario .form .enviar {
+    border: none;
+    margin: auto;
+    margin-top: 8%;
+    width: max-content;
+    padding: 3% 7%;
+    background-color: green;
+    color: white;
+    transition-duration: .6s;
+}
+
+#formulario .form .enviar:hover {
+    background-color: greenyellow;
+    color: white;
+}
+
+#formulario .form .enviar:active {
+    background-color: white;
+    color: gray;
+    transition-duration: .2s;
+}
